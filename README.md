@@ -1,2 +1,2 @@
 # Problem-Solving-Submissions-by-Ankit-Sahu
-Collection of LeetCode Solutions.
+Collection of LeetCode and GFG Solutions.
