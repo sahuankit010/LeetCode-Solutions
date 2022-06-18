@@ -6,7 +6,8 @@ public:
             int left = 0, right = matrix[i].size()-1;
             
             if(matrix[i][right]<target) continue;
-            else if(matrix[i][right]>target) {
+            
+            else if(matrix[i][right]>target and matrix[i][left]<=target) {
                 for(int j = left; j<=right; j++){
                     if(matrix[i][j]==target) return true;
                 }
