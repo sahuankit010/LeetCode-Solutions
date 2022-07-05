@@ -3,16 +3,10 @@ public:
     bool containsDuplicate(vector<int>& nums) {
         unordered_map<int,int>ump;
         
-        ump.insert({nums[0],1});
-        
-        for(int i=1;i<nums.size();i++){
-            if(ump.find(nums[i])!=ump.end()){
-                return true;
-            } else{
-                ump[nums[i]];
-            }
+        for(int i=0;i<nums.size();i++){
+            if(ump.find(nums[i])!=ump.end()) return true;
+            ump[nums[i]]++;
         }
-        
         return false;
     }
 };
