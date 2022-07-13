@@ -15,20 +15,23 @@ class Solution
     //Function to find repeated character whose first appearance is leftmost.
     int repeatedCharacter (string s) 
     { 
-        //Your code here
-        if(s.length()<2) return -1;
-        int mini=INT_MAX;
-        for(int i=1;i<s.length();i++){
-            int curr=INT_MAX;
-            for(int j=0;j<i;j++){
-                if(s[i]==s[j]){
-                    curr=min(j,curr);
-                    break;
-                }
-            }
-            mini=min(mini,curr);
-        }
-        return mini==INT_MAX? -1 : mini ;
+    int firstIndex[256]; 
+    for (int i = 0; i <256; i++) 
+        firstIndex[i] = -1; 
+  
+    // Traverse from left and update result 
+    // if we see a repeating character whose 
+    // first index is smaller than current 
+    // result. 
+    int res = INT_MAX; 
+    for (int i = 0; i < s.length(); i++) { 
+        if (firstIndex[s[i]] == -1) 
+           firstIndex[s[i]] = i; 
+        else
+           res = min(res, firstIndex[s[i]]); 
+    } 
+  
+    return (res == INT_MAX) ? -1 : res; 
     } 
 };
 
