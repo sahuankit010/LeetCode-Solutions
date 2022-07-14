@@ -9,8 +9,7 @@ public:
                 st.push(s[i]);
             }
             else{
-                if(!st.empty())
-                    st.pop();
+                st.pop();
             }
             i++;
         }
