@@ -14,25 +14,17 @@ public:
     TreeNode* searchBST(TreeNode* root, int val) {
         
         if(root==NULL) return NULL;
-        TreeNode* ans = NULL;
-        
         queue<TreeNode*> q;
-        
         q.push(root);
         
         while(!q.empty()){
-            
             TreeNode* node = q.front();
             if(node->val == val){
                 return node;
             }
             q.pop(); 
-
-            if (node->left != NULL) 
-                q.push(node->left); 
-
-            if (node->right != NULL) 
-                q.push(node->right); 
+            if (node->left) q.push(node->left); 
+            if (node->right) q.push(node->right); 
         }
         return NULL;
     }
