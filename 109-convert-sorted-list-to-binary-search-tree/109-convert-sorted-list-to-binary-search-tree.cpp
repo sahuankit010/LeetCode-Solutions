@@ -21,33 +21,41 @@
  */
 class Solution {
 public:
-      
-    TreeNode* treeBuiler(vector<int> &vec, int left, int right){
         
-        if(left>right) return nullptr;
-        
-        int mid = left + (right-left)/2;
-        TreeNode* temp = new TreeNode(vec[mid]);
-        temp->left = treeBuiler(vec,left, mid-1);
-        temp->right = treeBuiler(vec, mid+1, right);
-        return temp;                         
-    }
-    
-//     TreeNode* sortedArrayToBST(vector<int>& nums) {
-//         return treeBuiler(nums, 0, nums.size()-1);
-//     }
     TreeNode* sortedListToBST(ListNode* head) {
+      if(head == NULL)
+            return NULL;
+
+        int count = 0;
+        ListNode* temp = head;
         
-        vector<int>nums;
-        
-        if(head == nullptr) return nullptr;
-        
-        else{
-            while(head!=nullptr){
-                nums.push_back(head->val);
-                head = head->next;
-            }
+        while(temp != NULL){
+            count++;
+            temp = temp->next;
         }
-        return treeBuiler(nums, 0, nums.size()-1);
+        
+        if(count == 1){
+            TreeNode* root = new TreeNode(head->val);
+            return root;
+        }
+        
+        int n = count/2;
+        ListNode* prev = NULL;
+        ListNode* curr = head;
+        ListNode* next = head->next;
+        
+        while(n--){
+            prev = curr;
+            curr = next;
+            next = next->next;
+        }
+        prev->next = NULL;
+        curr->next = NULL;
+        TreeNode* root = new TreeNode(curr->val);
+        
+        root->left = sortedListToBST(head);
+        root->right = sortedListToBST(next);
+        
+        return root;
     }
 };
