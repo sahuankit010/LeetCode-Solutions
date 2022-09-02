@@ -10,8 +10,8 @@ public:
         return res;
     }
     unsigned long int catalan(unsigned int n){
-    unsigned long int c = binomialCoeff(2*n, n);
-    return c/(n+1);
+        unsigned long int c = binomialCoeff(2*n, n);
+        return c/(n+1);
     }
  
     int numTrees(int n) {
