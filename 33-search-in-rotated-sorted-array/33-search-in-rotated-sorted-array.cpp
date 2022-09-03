@@ -25,7 +25,7 @@ public:
         
         return findPivot(nums, mid+1, high);
     }
-    int pivotedBinarySearch(vector<int> nums, int target){
+    int search(vector<int>& nums, int target) {
         int pivot = findPivot(nums, 0, nums.size()-1);
         if(pivot == -1) return binarySearch(nums, 0, nums.size()-1, target);
         
@@ -33,9 +33,6 @@ public:
         
         if(nums[0]<=target) return binarySearch(nums, 0, pivot-1, target);
         
-        return binarySearch(nums, pivot+1, nums.size()-1, target); 
-    }
-    int search(vector<int>& nums, int target) {
-        return pivotedBinarySearch(nums, target );
+        return binarySearch(nums, pivot+1, nums.size()-1, target);
     }
 };
