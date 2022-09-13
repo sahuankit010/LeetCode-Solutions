@@ -2,22 +2,19 @@ class Solution {
 public:
     int minProductSum(vector<int>& nums1, vector<int>& nums2) {
         
-        int count[101]={0};
-        for (int i = 0; i < nums2.size(); i++) {
-            count[nums2[i]]++;
-        }
         sort(nums1.begin(), nums1.end());
-
-        int prodSum = 0;
-        int countIdx = 100;
+    
+        priority_queue<int> pq;      
+        for (int num : nums2)
+            pq.push(num);
         
-        for (int i = 0; i < nums1.size(); i++) {
-            while (count[countIdx] == 0)
-                --countIdx;
-            prodSum += (nums1[i] * countIdx);
-            count[countIdx]--;
+        int ans = 0;
+
+        for (int i = 0; i < nums2.size(); ++i) {
+            ans += nums1[i] * pq.top();
+            pq.pop();
         }
         
-        return prodSum;
+        return ans;   
     }
 };
