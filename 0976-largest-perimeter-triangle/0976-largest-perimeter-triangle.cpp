@@ -12,9 +12,10 @@ public:
             
             if(a+b>c and b+c>a and c+a>b){
                 curr = a+b+c;
+                per = max(per, curr);
             }
             
-            per = max(per, curr);
+            
         }
         
         return per==INT_MIN?0: per;
