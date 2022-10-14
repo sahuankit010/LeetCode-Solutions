@@ -25,7 +25,6 @@ public:
         }
         k=0;
         for(int i=0;i<n; i++){
-            // if(mp1.find(nums2[i])==mp1.end()) ans[1].push_back(nums2[i]);
             if(mp1.find(nums2[i])==mp1.end()){
                 if(ans[1].size()==0){
                     ans[1].push_back(nums2[i]);
