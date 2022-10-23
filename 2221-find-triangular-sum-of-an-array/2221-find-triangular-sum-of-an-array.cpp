@@ -14,10 +14,9 @@ public:
             nums.clear();
             n=tt.size();
             if(n==1) return tt[0];
-            for(int i=0; i<n; i++) nums.push_back(tt[i]);
-            
+            for(int i=0; i<n; i++) 
+                nums.push_back(tt[i]);
         }
-        
         return -1;
     }
 };
