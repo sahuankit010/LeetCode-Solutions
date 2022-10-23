@@ -7,12 +7,7 @@ public:
             if(ump.find(s[i])==ump.end()){
                 ump.insert({s[i],i});
             } else{
-                int a = ump[s[i]];
-                if((i-a-1)!=distance[s[i]-97]) {
-                    // cout<<distance[s[i]-97]<<endl;
-                    // cout<<"Hi";
-                    return false;
-                }
+                if((i-ump[s[i]]-1)!=distance[s[i]-97]) return false;
             }
         }
         return true;
