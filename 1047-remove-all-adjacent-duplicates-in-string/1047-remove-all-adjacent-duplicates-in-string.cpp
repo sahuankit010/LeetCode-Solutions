@@ -5,7 +5,7 @@ public:
         st.push(s[0]);
         int i=1;
         while(i<s.length()){
-            if(st.empty() or st.top()!=s[i]){
+            if(st.empty() || st.top()!=s[i]){
                 st.push(s[i]);
             }
             else{
