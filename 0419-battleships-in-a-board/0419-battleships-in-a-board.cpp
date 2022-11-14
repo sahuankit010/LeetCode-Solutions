@@ -7,11 +7,11 @@ public:
         int colCount = board.front().size();
     
         int count{0};
-        for(size_t y = 0; y < rowCount; ++y) {
-            for(size_t x = 0; x < colCount; ++x) {
-                if(board[y][x] == 'X') {
-                    if(y > 0 && board[y - 1][x] == 'X') continue;
-                    if(x > 0 && board[y][x - 1] == 'X') continue;
+        for(int i = 0; i < rowCount; ++i) {
+            for(int j = 0; j < colCount; ++j) {
+                if(board[i][j] == 'X') {
+                    if(i > 0 && board[i - 1][j] == 'X') continue;
+                    if(j > 0 && board[i][j - 1] == 'X') continue;
                     ++count;
                 }
             }
