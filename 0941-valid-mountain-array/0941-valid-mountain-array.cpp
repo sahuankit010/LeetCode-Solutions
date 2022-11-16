@@ -6,13 +6,13 @@ public:
         if(n<3) return false;
         
         int i=1;
-        bool inc = false,dec = false;
+        bool dec = false;
         for(; i<n; i++){
             cout<<i<<endl;
             if(arr[i]==arr[i-1]) return false;
             if(arr[i]<arr[i-1]) break;
         }
-        inc = i>=2;
+        bool inc = i>=2;
         if(i==n-1){
             dec = arr[n-1]<arr[n-2];
         }
