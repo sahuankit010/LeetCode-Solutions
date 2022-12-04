@@ -4,13 +4,15 @@ public:
     int minimumAverageDifference(vector<int>& nums) {
         ll mini=INT_MAX;
         int n=nums.size();
-        vector<ll>left(n,0);
-        vector<ll>right(n,0);
+        vector<ll>left(n,0); //prefix sum
+        vector<ll>right(n,0); //suffix sum
             
         left[0]=nums[0];
+        
         for(int i=1;i<n;i++){
             left[i]=left[i-1]+nums[i];
         }
+        
         right[n-1]=0;
         for(int i=n-2;i>=0;i--){
             right[i]=right[i+1]+nums[i+1];
