@@ -1,8 +1,6 @@
 class Solution {
     
     static int binarySearch(int [] prefix, int target) {
-        System.out.println("I just got executed!");
-        
         int l=0, r = prefix.length-1;
         int ans=-1;
         while(l<=r){
@@ -35,10 +33,7 @@ class Solution {
         for(int i=1; i<n; i++){
             prefix[i] = prefix[i-1] + nums[i];
         }
-        // for(int i=0; i<n; i++){
-        //     System.out.print(prefix[i]+ " ");
-        // }
-        // System.out.println();
+        
         for(int i=0; i<m; i++){
             int idx = binarySearch(prefix, queries[i]);
             ans[i] = idx == -1? 0: idx+1;
