@@ -29,9 +29,10 @@ public:
         vector<vector<int>>g(n);
 		//First step is to convert the edges into the graph
 		//so as given undirected graph so we have made 2d vector for graph
-        for(int i=0;i<e.size();i++){
-            g[e[i][0]].push_back(e[i][1]);
-            g[e[i][1]].push_back(e[i][0]);
+
+        for(vector<int> v : e){
+            g[v[0]].push_back(v[1]);
+            g[v[1]].push_back(v[0]);
         }
 		//Second step is to make the visited vector 
 		//inorder to keep the count of the node that has been visited.
