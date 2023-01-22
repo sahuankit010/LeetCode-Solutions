@@ -4,14 +4,19 @@ public:
         int ans = 0;
         int n=nums.size();
         
-        for(int i=0; i<n; i++){
-            
-            
-            for(int j=0; j<n; j++){
-                if(i==j) continue;
-                string temp = "";
-                temp += nums[i] + nums[j];
-                if(temp == target) ans++;
+        unordered_map<string, int> mp;
+        
+        for(string str: nums){
+            mp[str]++;
+        }
+        
+        for(string &str: nums){
+            int prefixLength = str.length();
+            if(target.substr(0, prefixLength) == str){
+                string suff = target.substr(prefixLength);
+                if(mp.find(suff)!=mp.end()){
+                    ans += str == suff? mp[suff]-1: mp[suff];
+                }
             }
         }
         
