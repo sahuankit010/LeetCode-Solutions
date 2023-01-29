@@ -1,22 +1,23 @@
 class Solution {
 public:
-  vector<int> ans;
-    void rcheck(int num,int k,int n){
-        if(n==1){
+    
+    void dfs(int num, int n, int k, vector<int> &ans){
+        
+        if(n == 0){
             ans.push_back(num);
             return;
         }
-        if(num%10-k>=0)
-            rcheck(num*10+(num%10-k),k,n-1);
-        if(k){
-            if(num%10+k<10)
-                rcheck(num*10+(num%10+k),k,n-1);
-        }
+        int lastDigit = num % 10;
+        if(lastDigit>=k) dfs( 10 * num + lastDigit - k, n-1, k, ans);
+        if(k && (lastDigit + k) <= 9) dfs(10 * num + lastDigit + k, n-1, k, ans);
     }
+    
     vector<int> numsSameConsecDiff(int n, int k) {
-        for(int i=1;i<10;i++) 
-            rcheck(i,k,n);
+        vector<int> ans;
+        
+        for(int d=1; d<=9; d++)
+            dfs(d, n-1, k, ans);
+        
         return ans;
     }
-
 };
