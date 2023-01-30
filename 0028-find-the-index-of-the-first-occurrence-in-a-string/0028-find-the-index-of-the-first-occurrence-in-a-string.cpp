@@ -5,10 +5,10 @@ public:
         int n = haystack.length();
         int m = needle.length();
         
-        if(n==1){
-            if(haystack[0] == needle[0])
-                return 0;
-        }
+        // if(n==1){
+        //     if(haystack[0] == needle[0])
+        //         return 0;
+        // }
         for(int i=0; i <= n-m;){
             int j=0;
             for(;j<m;j++){
