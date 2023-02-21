@@ -3,14 +3,21 @@ public:
     int singleNonDuplicate(vector<int>& nums) {
         int n = nums.size();
         if(n==1) return nums[0];
-        unordered_map<int,int> ump;
+        int low = 0, high = n-1;
         
-        for(int i=0; i<n; i++){
-            ump[nums[i]]++;
+        while(low<high){
+            int mid  = low + (high-low)/2;
+            bool halvesEven = (high-mid) % 2 == 0;
+            
+            if(nums[mid] == nums[mid+1]){
+                if(halvesEven) low = mid + 2;
+                else high = mid - 1;
+            } else if(nums[mid] == nums[mid - 1]){
+                if(!halvesEven) low = mid + 1;
+                else high = mid - 2;
+            } else return nums[mid];
         }
-        for(auto x: ump){
-            if(x.second == 1) return x.first;
-        }
-        return -1;
+        
+        return nums[low];
     }
 };
