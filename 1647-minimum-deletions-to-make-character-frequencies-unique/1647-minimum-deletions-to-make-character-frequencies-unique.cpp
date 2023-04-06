@@ -10,7 +10,7 @@ public:
         for(auto it: umap){
             vec.push_back(it.second);
         }
-        
+        sort(begin(vec), end(vec), greater<int>());
         set<int>se;
         int ans = 0;
         for(int i=0; i<vec.size(); i++){
