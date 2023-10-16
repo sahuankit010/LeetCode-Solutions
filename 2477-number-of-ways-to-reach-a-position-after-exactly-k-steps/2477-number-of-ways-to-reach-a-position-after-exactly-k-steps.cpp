@@ -10,7 +10,7 @@ public:
         return memo[startPos+1000][k] = res%mod;
     }
     int numberOfWays(int startPos, int endPos, int k) {
-        vector<vector<int>> memo(3100, vector<int> (1001,-1));
+        vector<vector<int>> memo(3001, vector<int> (1001,-1));
         return f(startPos, endPos, k, memo);
     }
 };
