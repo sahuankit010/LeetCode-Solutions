@@ -12,6 +12,7 @@ Feel free to discuss at sahu.ankit010@gmail.com
 | [0015-3sum](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0056-merge-intervals](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0056-merge-intervals) |
+| [0073-set-matrix-zeroes](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0490-the-maze](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0490-the-maze) |
 ## Depth-First Search
@@ -25,6 +26,7 @@ Feel free to discuss at sahu.ankit010@gmail.com
 ## Matrix
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0073-set-matrix-zeroes) |
 | [0490-the-maze](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0490-the-maze) |
 ## Two Pointers
 |  |
@@ -51,6 +53,7 @@ Feel free to discuss at sahu.ankit010@gmail.com
 ## Hash Table
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
 ## Union Find
 |  |
