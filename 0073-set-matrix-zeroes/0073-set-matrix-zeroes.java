@@ -33,14 +33,14 @@ class Solution {
 
         // Zero out the first row if needed
         if (row) {
-            for (int j = 1; j < n; j++) {
+            for (int j = 0; j < n; j++) {
                 matrix[0][j] = 0;
             }
         }
 
         // Zero out the first column if needed
         if (col) {
-            for (int i = 1; i < m; i++) {
+            for (int i = 0; i < m; i++) {
                 matrix[i][0] = 0;
             }
         }
