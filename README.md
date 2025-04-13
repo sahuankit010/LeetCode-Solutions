@@ -9,6 +9,7 @@ Feel free to discuss at sahu.ankit010@gmail.com
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0056-merge-intervals](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0056-merge-intervals) |
@@ -56,6 +57,7 @@ Feel free to discuss at sahu.ankit010@gmail.com
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0001-two-sum) |
 | [0073-set-matrix-zeroes](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
 ## Union Find
