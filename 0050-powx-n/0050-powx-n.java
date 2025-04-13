@@ -1,31 +1,31 @@
 class Solution {
     public double myPow(double x, int n) {
-
-        if(n == 0) return 1f;
-
         if(n == Integer.MIN_VALUE){
             x = 1/x;
             n = Integer.MAX_VALUE;
-            return myPow(x, n)*x;
+            return myPow(x, n) * x;
         }
 
-        if(n < 0){
-            n = -n;
+        else if(n < 0){
             x = 1/x;
+            n = -n;
             return myPow(x, n);
         }
 
-        double result = 1;
+        else if(n == 0) {
+            return 1f;
+        }
 
-        while(n > 0){
-            if(n%2 == 1){
-                result *= x;
+        double res = 1f;
+
+        while(n>0){
+            if(n%2==1){
+                res*=x;
             }
-
             n/=2;
             x*=x;
         }
 
-        return result;
+        return res;
     }
 }
