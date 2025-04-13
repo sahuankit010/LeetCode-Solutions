@@ -15,6 +15,7 @@ Feel free to discuss at sahu.ankit010@gmail.com
 | [0056-merge-intervals](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0056-merge-intervals) |
 | [0073-set-matrix-zeroes](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
+| [0322-coin-change](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0322-coin-change) |
 | [0490-the-maze](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0490-the-maze) |
 | [0498-diagonal-traverse](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0498-diagonal-traverse) |
 | [1036-rotting-oranges](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
@@ -25,6 +26,7 @@ Feel free to discuss at sahu.ankit010@gmail.com
 ## Breadth-First Search
 |  |
 | ------- |
+| [0322-coin-change](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0322-coin-change) |
 | [0490-the-maze](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0490-the-maze) |
 | [1036-rotting-oranges](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 ## Matrix
@@ -48,6 +50,7 @@ Feel free to discuss at sahu.ankit010@gmail.com
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
+| [0322-coin-change](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0322-coin-change) |
 ## Stack
 |  |
 | ------- |
