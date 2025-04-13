@@ -64,4 +64,12 @@ Feel free to discuss at sahu.ankit010@gmail.com
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
+## Math
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0050-powx-n) |
+## Recursion
+|  |
+| ------- |
+| [0050-powx-n](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0050-powx-n) |
 <!---LeetCode Topics End-->
