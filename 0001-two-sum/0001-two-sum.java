@@ -1,18 +1,48 @@
 class Solution {
+    static class Pair{
+        int first;
+        int second;
+
+        Pair(int x, int y){
+            this.first = x;
+            this.second = y;
+        }
+    }
     public int[] twoSum(int[] nums, int target) {
+        int n = nums.length;
 
-        int[] arr = new int[2];
+        Map<Integer, Integer> map = new HashMap<>();
 
-        Map<Integer, Integer> hashmap = new HashMap<>();
-
-        for(int i = 0; i < nums.length; i++){
-            if(hashmap.containsKey(target - nums[i])){
-                return new int[] {i, hashmap.get(target - nums[i])};
+        for(int i = 0; i<n; i++){
+            if(map.containsKey(target-nums[i])){
+                return new int[]{i, map.get(target-nums[i])};
             } else{
-                hashmap.put(nums[i], i);
+                map.put(nums[i], i);
             }
         }
-        return new int[] {};
+
+        // Pair[] temp  = new Pair[n];
+
+        // for(int i=0; i<n; i++){
+        //     temp[i] = new Pair(nums[i], i);
+        // }
+
+        // Arrays.sort(temp, (a, b) -> {
+        //     if(a.first == b.first){
+        //         return a.second -b.second;
+        //     }
+        //     return a.first-b.first;
+        // });
+
+        // int l = 0, r = n-1;
+
+        // while(l < r){
+        //     int sum = temp[l].first + temp[r].first;
+        //     if(sum == target) return new int[] {temp[l].second, temp[r].second};
+        //     else if(sum < target) l++;
+        //     else r--;
+        // }
         
+        return new int[] {};
     }
 }
