@@ -15,6 +15,7 @@ Feel free to discuss at sahu.ankit010@gmail.com
 | [0073-set-matrix-zeroes](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0490-the-maze](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0490-the-maze) |
+| [1036-rotting-oranges](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -23,11 +24,13 @@ Feel free to discuss at sahu.ankit010@gmail.com
 |  |
 | ------- |
 | [0490-the-maze](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0490-the-maze) |
+| [1036-rotting-oranges](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 ## Matrix
 |  |
 | ------- |
 | [0073-set-matrix-zeroes](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0073-set-matrix-zeroes) |
 | [0490-the-maze](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0490-the-maze) |
+| [1036-rotting-oranges](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
 ## Two Pointers
 |  |
 | ------- |
