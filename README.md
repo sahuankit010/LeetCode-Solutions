@@ -39,6 +39,7 @@ Feel free to discuss at sahu.ankit010@gmail.com
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0015-3sum](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0015-3sum) |
 | [0042-trapping-rain-water](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 ## Sorting
@@ -49,6 +50,7 @@ Feel free to discuss at sahu.ankit010@gmail.com
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0322-coin-change](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0322-coin-change) |
 ## Stack
@@ -81,4 +83,8 @@ Feel free to discuss at sahu.ankit010@gmail.com
 |  |
 | ------- |
 | [0498-diagonal-traverse](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0498-diagonal-traverse) |
+## String
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
