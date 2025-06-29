@@ -16,6 +16,7 @@ Feel free to discuss at sahu.ankit010@gmail.com
 | [0073-set-matrix-zeroes](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0079-word-search) |
 | [0128-longest-consecutive-sequence](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
+| [0139-word-break](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0139-word-break) |
 | [0322-coin-change](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0322-coin-change) |
 | [0490-the-maze](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0490-the-maze) |
 | [0498-diagonal-traverse](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0498-diagonal-traverse) |
@@ -55,6 +56,7 @@ Feel free to discuss at sahu.ankit010@gmail.com
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
+| [0139-word-break](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0139-word-break) |
 | [0322-coin-change](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0322-coin-change) |
 ## Stack
 |  |
@@ -70,6 +72,7 @@ Feel free to discuss at sahu.ankit010@gmail.com
 | [0001-two-sum](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0001-two-sum) |
 | [0073-set-matrix-zeroes](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
+| [0139-word-break](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0139-word-break) |
 ## Union Find
 |  |
 | ------- |
@@ -91,8 +94,17 @@ Feel free to discuss at sahu.ankit010@gmail.com
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0079-word-search](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0079-word-search) |
+| [0139-word-break](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0139-word-break) |
 ## Backtracking
 |  |
 | ------- |
 | [0079-word-search](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0079-word-search) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0139-word-break) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
