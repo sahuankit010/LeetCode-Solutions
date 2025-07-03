@@ -17,6 +17,7 @@ Feel free to discuss at sahu.ankit010@gmail.com
 | [0079-word-search](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0079-word-search) |
 | [0128-longest-consecutive-sequence](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0139-word-break) |
+| [0198-house-robber](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0322-coin-change) |
 | [0490-the-maze](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0490-the-maze) |
 | [0498-diagonal-traverse](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0498-diagonal-traverse) |
@@ -57,6 +58,7 @@ Feel free to discuss at sahu.ankit010@gmail.com
 | [0005-longest-palindromic-substring](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0005-longest-palindromic-substring) |
 | [0042-trapping-rain-water](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0139-word-break](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0139-word-break) |
+| [0198-house-robber](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0322-coin-change) |
 ## Stack
 |  |
