@@ -1,26 +1,23 @@
 class Solution {
 public:
-//     int robFunction(int i, vector<int>nums, vector<int> &memo){
-//         if(i>=nums.size()) return 0;
+    int n;
+    vector<int>memo;
+    int rec(vector<int>& nums, int idx){
+        if(idx >= n) return 0;
+        if(idx == n-1 || idx == n-2) return nums[idx];
+        if(memo[idx] != -1) return memo[idx];
         
-//         if(memo[i]!=-1){
-//             return memo[i];
-//         }
-        
-//         int ans = max(robFunction(i+1, nums, memo), robFunction(i+2, nums, memo)+nums[i]);
-//         memo[i]=ans;
-//         return  ans;
-//     }
+        return memo[idx] = nums[idx] + max(rec(nums, idx+2), rec(nums, idx+3));
+    }
     int rob(vector<int>& nums) {
-        int n = nums.size();
-        
-        vector<int>dp(n+1,0);
-        
-        dp[0]=0;
-        dp[1]=nums[0];
-        for(int i=1; i<n; i++)
-            dp[i+1] = max(dp[i-1]+nums[i], dp[i]);
-        return dp[n];
-        // return  robFunction(0, nums, memo);
+        n = nums.size();
+        if(n == 1) return nums[0];
+        memo.resize(n+1, -1);
+        int v1 = rec(nums, 0);
+        memo.clear();
+        memo.resize(n+1, -1);
+        int v2 = rec(nums, 1);
+        int ans = max(v1, v2);
+        return ans;
     }
 };
