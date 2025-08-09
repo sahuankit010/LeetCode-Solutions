@@ -19,6 +19,7 @@ Feel free to discuss at sahu.ankit010@gmail.com
 | [0139-word-break](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0139-word-break) |
 | [0198-house-robber](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0322-coin-change) |
+| [0347-top-k-frequent-elements](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0490-the-maze](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0490-the-maze) |
 | [0498-diagonal-traverse](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0498-diagonal-traverse) |
 | [1036-rotting-oranges](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/1036-rotting-oranges) |
@@ -52,6 +53,7 @@ Feel free to discuss at sahu.ankit010@gmail.com
 | ------- |
 | [0015-3sum](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0056-merge-intervals) |
+| [0347-top-k-frequent-elements](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -76,6 +78,7 @@ Feel free to discuss at sahu.ankit010@gmail.com
 | [0073-set-matrix-zeroes](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0139-word-break) |
+| [0347-top-k-frequent-elements](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
 ## Union Find
 |  |
 | ------- |
@@ -123,4 +126,24 @@ Feel free to discuss at sahu.ankit010@gmail.com
 |  |
 | ------- |
 | [0096-unique-binary-search-trees](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0096-unique-binary-search-trees) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
+## Counting
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
