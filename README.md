@@ -78,6 +78,7 @@ Feel free to discuss at sahu.ankit010@gmail.com
 | [0073-set-matrix-zeroes](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0073-set-matrix-zeroes) |
 | [0128-longest-consecutive-sequence](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0139-word-break) |
+| [0146-lru-cache](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0146-lru-cache) |
 | [0347-top-k-frequent-elements](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
 ## Union Find
 |  |
@@ -146,4 +147,16 @@ Feel free to discuss at sahu.ankit010@gmail.com
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0347-top-k-frequent-elements) |
+## Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0146-lru-cache) |
+## Design
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0146-lru-cache) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/sahuankit010/LeetCode-Solutions/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
