@@ -1,23 +1,22 @@
 class LRUCache {
 public:
-    list<int> dll; // key
-    map<int, pair<list<int>::iterator, int>> map; // key, {address, val}
+    list<int> dll;
+    map<int, pair<list<int>::iterator, int>> map;
     int n;
     LRUCache(int capacity) {
         n = capacity;
     }
 
-    void makeUpdated(int key){
+    void makeUpdated(int key) {
         dll.erase(map[key].first);
         dll.push_front(key);
         map[key].first = dll.begin();
     }
     
     int get(int key) {
-        if(!map.count(key)){
+        if(!map.count(key)) {
             return -1;
         }
-
         makeUpdated(key);
         return map[key].second;
     }
@@ -26,17 +25,18 @@ public:
         if(map.count(key)){
             map[key].second = value;
             makeUpdated(key);
-        } else {
+            // return;
+        } else{
             dll.push_front(key);
             map[key].second = value;
             map[key].first = dll.begin();
-            n--;
+            // n--;
         }
 
-        if(n < 0){
+        if(dll.size() > n) {
             map.erase(dll.back());
             dll.pop_back();
-            n++;
+            // n++;
         }
     }
 };
